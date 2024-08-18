@@ -31,6 +31,9 @@ public class Calculator{
                 result=num1%num2;
                 System.out.print(result);
                 break;
+            case '//':
+                result=num1//num2;
+                System.out.println(result);
             default:
                 System.out.print("enter the valid operation");
         }
